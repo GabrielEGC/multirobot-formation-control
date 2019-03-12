@@ -11,7 +11,7 @@ xf=a*(2*rand(n,1)-1);
 y=a*(2*rand(n,1)-1);
 yf=a*(2*rand(n,1)-1);
 
-%We want to show the word "ADI :)" with the robots
+%We want to drive the robots to the following formation
 xf=[linspace(-4,-3,9) linspace(-3,-2,9) [-3.15 -2.85] -.5*ones(1,9) ...
     .75 1*ones(1,7) .75 [-1:.5:0.5] [-1:.5:0.5] 3*ones(1,9) [2:.5:4] [2:.5:4]...
     [5.2:.5:5.2] [5.2:.5:5.2] 6.3-.05*linspace(4,-4,9).^2]';
