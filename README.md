@@ -19,7 +19,7 @@ And we make a magic change of variables as follows:
 This variables form a dynamical subsystems of 2 variables from a system of 3. So control is by far easier. The "lost" variable is the orientation of the robot, which doesn't matter in the problem of formation of the robots (only "x" and "y" are important)
 
 <p align="center">
-![Alt Text](graphics/MRC.gif)
+<img src="graphics/MRC.gif">
 </p>
 
 Let's note that in strict sense this is not optimal LQR because it can be "even more optimal" if we choose better the angular velocity. But this will be non-linear optimal control, a piecewise variable angular velocity is commented in code.
