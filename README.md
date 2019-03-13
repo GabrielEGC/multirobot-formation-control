@@ -6,6 +6,6 @@ Problem is solved with a change of variable, a constant angular velocity for all
 
 Let's note that in strict sense this is not optimal LQR because it can be "even more optimal" if we choose better the angular velocity. But this will be non-linear optimal control, a piecewise variable angular velocity is commented in code.
 Simulation is showed in MATLAB script with graphics.
+
+
 ![Alt Text](MRC.gif)
-![Alt Text](/MRC.gif)
-![Alt Text](https://github.com/GabrielEGC/multirobot-formation-control/MRC.gif)
