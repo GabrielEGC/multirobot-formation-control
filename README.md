@@ -7,13 +7,13 @@ The robots all have a different distance from wheel to wheel. This is crucial to
 Problem is solved with a change of variable, a constant angular velocity for all robots, and a LQR control applied to the new system (which is linear). So the important part of the problem solving is the key change of variables, this is valid in general to all differential wheeled robots. We start from the classic equations: 
 
 <p align="center">
-![Alt Text](graphics/diffcar.png)
+<img src="graphics/diffcar.png">
 </p>
 
 And we make a magic change of variables as follows: 
 
 <p align="center">
-![Alt Text](graphics/keytrick.png)
+<img src="graphics/keytrick.png">
 </p>
 
 This variables form a dynamical subsystems of 2 variables from a system of 3. So control is by far easier. The "lost" variable is the orientation of the robot, which doesn't matter in the problem of formation of the robots (only "x" and "y" are important)
